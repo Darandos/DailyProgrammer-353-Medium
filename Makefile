@@ -1,7 +1,7 @@
 CXX = g++-7
 CXXFLAGS = -ggdb3 -std=c++17
 TESTINCLUDE = -I lib/googletest/googletest/include/ -I src/
-LIBGTESTDIR = lib/googletest/build/lib
+LIBGTESTDIR = lib/googletest/lib
 LIBGTEST = $(LIBGTESTDIR)/libgtest_main.a $(LIBGTESTDIR)/libgtest.a
 SOURCEDIR = src
 SOURCEFILES = $(wildcard $(SOURCEDIR)/*.cc)

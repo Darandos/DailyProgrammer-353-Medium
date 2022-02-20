@@ -1,4 +1,6 @@
 .*/**
 bin/**
 build/**
+lib/googletest/googletest/generated/**
+lib/googletest/Testing/Temporary/**
 Bounds For Sorting By Prefix Reversal.pdf
